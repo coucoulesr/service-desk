@@ -20,19 +20,20 @@ requirements are met.
   - [ ] The user should be able to register an account to sign in with.
   
   - [ ] An authenticated user should be able to see the *Issue Log*, a list of currently open issues.
-  - An issue displayed on the issue log should have the following attributes:
-    - [ ] The issue should have a **status** (open, under review, closed).
-    - [ ] The issue should have an **ID**, a numerical identifier unique to each issue.
-    - [ ] The issue should have a **Description** of the problem it refers to.
-    - [ ] The issue should have a **Author** denoting who posted it.
-    - [ ] The issue should have a **Timestamp** denoting when it was posted.
-  - [ ] An authenticated user should be able to submit an issue to the *Issue Log* and have it posted there.
-    - [ ] Authenticated users should only have control of the description of an issue to be submitted.
+  
+An issue displayed on the issue log should have the following attributes:
+- [ ] The issue should have a **status** (open, under review, closed).
+- [ ] The issue should have an **ID**, a numerical identifier unique to each issue.
+- [ ] The issue should have a **Description** of the problem it refers to.
+- [ ] The issue should have a **Author** denoting who posted it.
+- [ ] The issue should have a **Timestamp** denoting when it was posted.
+- [ ] An authenticated user should be able to submit an issue to the *Issue Log* and have it posted there.
+  - [ ] Authenticated users should only have control of the description of an issue to be submitted.
 
   
-  Along with the capabilities of an authenticated user, an administrator should have the following capabilities:
-    - [ ] An administrator should have the ability to change the status of an issue.
-    - [ ] An administrator should have the ability to delete an issue. 
+Along with the capabilities of an authenticated user, an administrator should have the following capabilities:
+- [ ] An administrator should have the ability to change the status of an issue.
+- [ ] An administrator should have the ability to delete an issue. 
 
 ### The following features are planned to be added to meet these functional requirements:
   - [ ] The user will be able to register a username, email, and password with which to interface with the system.
