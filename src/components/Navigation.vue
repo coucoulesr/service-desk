@@ -7,6 +7,7 @@
           <router-link class="nav-item nav-link" to="/issues">Issue Log</router-link>
           <router-link class="nav-item nav-link" to="/login">Login</router-link>
           <router-link class="nav-item nav-link" to="/register">Register</router-link>
+          <router-link class="nav-item nav-link" v-if="$auth.isAuthenticated" to="/profile">Profile</router-link>
           <a href="#" class="nav-item nav-link" @click.prevent="$emit('logout')">Logout</a>
         </div>
       </div>

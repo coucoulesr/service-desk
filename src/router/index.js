@@ -5,6 +5,9 @@ import About from "../views/About.vue";
 import Login from "../views/Login.vue";
 import Register from "../views/Register.vue";
 import Issues from "../views/Issues.vue";
+import { authGuard } from "../auth/authGuard";
+
+import Profile from "../views/Profile.vue";
 
 Vue.use(VueRouter);
 
@@ -34,6 +37,12 @@ const routes = [
     name: "issues",
     component: Issues
   },
+  {
+    path: "/profile",
+    name: "profile",
+    component: Profile,
+    beforeEnter: authGuard
+  }
 ];
 
 const router = new VueRouter({
