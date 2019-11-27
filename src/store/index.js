@@ -76,8 +76,8 @@ export default new Vuex.Store({
       return state.tasks.filter(task => task.state > 0);
     },
     getTaskByID(state) {
-      function f(id) {
-       return state.tasks.find(todo => todo.id === id);
+      return function f(id) {
+        return state.tasks.find(todo => todo.id === id);
       }
     },
   }
